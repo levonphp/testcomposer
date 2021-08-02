@@ -1,0 +1,22 @@
+{
+	"name": "levonphp/firstcom",
+    "description": "a PHPer test com",
+    "authors": [                                             
+        {
+            "name": "levonphp",
+            "email": "levonphp@163.com"
+        }
+    ],
+    "homepage":"https://github.com/levonphp/testcomposer",
+    "license": "MIT",
+    "keywords": [
+        "levonphp",
+        "testcom"
+    ],
+    "require": {
+        "monolog/monolog": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
